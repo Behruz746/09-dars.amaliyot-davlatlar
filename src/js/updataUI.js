@@ -8,10 +8,8 @@ export const createCountries = (countries)=> {
         const capital = country.capital ? country.capital[0] : 'No capital';
         const flag = country.flags.svg;
 
-        console.log(country);
-
         const li = document.createElement('li');
-        li.classList.add('card__item');
+        li.classList.add('cards__item');
         li.innerHTML = `
             <a href="./about.html">
                 <img src=${flag} alt="germany-flag" width="267" height="160">
