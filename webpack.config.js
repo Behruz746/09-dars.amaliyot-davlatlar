@@ -4,7 +4,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
     // mode
-    mode: 'development', // production
+    mode: 'development', // or production
 
     // entry
     entry: {
