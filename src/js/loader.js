@@ -8,4 +8,4 @@ const loaderToggle = (info) => {
     }
 };
 
-export default loaderToggle; 
+export default loaderToggle;  

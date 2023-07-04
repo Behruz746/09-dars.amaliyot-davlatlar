@@ -9,4 +9,4 @@ request(API).then((data) => {
     createCountries(data);
 }).catch((err) => {
    alert(err.message);
-}); 
+});  

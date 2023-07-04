@@ -7,7 +7,7 @@ const request = async (reource) => {
         loaderToggle(false)
         throw new Error("Something went wrong :(");
     }
-    const data = await req.json()
+    const data = await req.json() 
     loaderToggle(false)
     return data;
 }
