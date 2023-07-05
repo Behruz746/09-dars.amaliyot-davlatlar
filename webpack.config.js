@@ -4,7 +4,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
     // mode
-    mode: 'development', // or production
+    mode: 'production', // or development
 
     // entry
     entry: {
@@ -38,7 +38,20 @@ module.exports = {
             {
                 test: /\.css$/i,
                 use: [MiniCssExtractPlugin.loader, "css-loader"],
-            }
+            },
+
+            {
+                test: /\.(?:js|mjs|cjs)$/,
+                exclude: /node_modules/,
+                use: {
+                  loader: 'babel-loader',
+                  options: {
+                    presets: [
+                      ['@babel/preset-env', { targets: "defaults" }]
+                    ]
+                  }
+                }
+            },
         ],
     },
 
