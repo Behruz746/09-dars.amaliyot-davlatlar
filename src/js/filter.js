@@ -37,5 +37,5 @@ searchSelect.forEach(li=> {
         }).catch((err) => {
            alert(err.message);
         });  
-    })
+    });
 });
