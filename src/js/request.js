@@ -5,7 +5,7 @@ const request = async (reource) => {
     const req = await fetch(reource)
     if (!req.ok) {
         loaderToggle(false)
-        throw new Error("Something went wrong :(");
+        throw new Error("Something went wrong :( FUCK YOU BITCH");
     }
     const data = await req.json() 
     loaderToggle(false)

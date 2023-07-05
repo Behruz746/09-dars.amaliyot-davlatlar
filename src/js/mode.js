@@ -3,7 +3,7 @@ const body = document.body;
 const modeFromLocal = localStorage.getItem('mode') ? localStorage.getItem('mode') : null; 
 
 if(modeFromLocal) {
-    body.classList.to('dark-mode');
+    body.classList.add('dark-mode');
 }
 
 modeBtn.addEventListener('click', ()=> {
