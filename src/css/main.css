@@ -15,6 +15,12 @@
   --nurito-sans: "Nunito Sans", "Arial", sans-serif;
 }
 
+#box {
+  width: 200px;
+  height: auto;
+  background-color: red;
+}
+
 /* GLOBAL STYLES */
 *,
 *::after,

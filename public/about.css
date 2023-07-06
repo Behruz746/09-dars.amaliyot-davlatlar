@@ -14,6 +14,12 @@
   --nurito-sans: "Nunito Sans", "Arial", sans-serif;
 }
 
+#box {
+  width: 200px;
+  height: auto;
+  background-color: red;
+}
+
 /* GLOBAL STYLES */
 *,
 *::after,
@@ -241,7 +247,7 @@ body {
     background-color: var(--white-bg-color);
     border-radius: 5px;
     padding: 1.8rem 1rem 1.8rem 7.4rem;
-    background-image: url(71f446f2ba2230ee2061.svg);
+    background-image: url(6ddb0df92c4f8e06f920.svg);
     background-repeat: no-repeat;
     background-size: 18px 18px;
     background-position: top 19px left 32px;
